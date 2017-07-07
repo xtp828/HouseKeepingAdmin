@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+	<script type="text/javascript" src="__PUBLIC__/aunt/lib/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<!--<if condition="$txt">
+
+</if>-->
+<img src="/Uploads/qrcode/{$code}"/>
+<span id='again_build' style="    padding: 5px;background: brown;">重新生成</span>
+<!--<form action="{:U('build_qrcode')}" method="post">
+<input type="text" name="qrcode"/>
+    <input type="submit" name="提交"/>
+</form>-->
+<script>
+$(function(){
+  $('#again_build').click(function(){
+		$.ajax({
+            url:"{:U('user/again_qrcode')}",
+            type:'POST', //GET
+            dataType:'json',    //返回的数据格式：json/xml/html/script/jsonp/text
+            success:function(data){
+                if(data.status == 1){
+                    window.location.reload();
+                }
+            },
+        });
+  });
+});
+</script>
+</body>
+</html>

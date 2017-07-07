@@ -1,0 +1,1351 @@
+[ 2017-02-03T10:38:02+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.094006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.094006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041002s ]
+
+[ 2017-02-03T10:38:03+08:00 ] 127.0.0.1 /index.php/login/enter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T10:38:08+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T10:38:16+08:00 ] 127.0.0.1 /index.php/login/submit_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `crm_user` WHERE `name` = 'yz' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-03T10:38:16+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:38:16+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:46:18+08:00 ] 127.0.0.1 /index.php/user/build_qrcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: txt E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\70050a211ded70fd2f32e540c07f79c9.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:47:32+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:47:33+08:00 ] 127.0.0.1 /index.php/user/user_edit/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-03T10:51:01+08:00 ] 127.0.0.1 /index.php/user/user_edit_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:53:50+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:53:50+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T10:53:55+08:00 ] 127.0.0.1 /index.php/user/user_edit/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\phpstudy\WWW\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T11:29:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:29:46+08:00 ] 127.0.0.1 /index.php/login/enter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:30:24+08:00 ] 127.0.0.1 /index.php/login/submit_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_user` WHERE `name` = 'yz' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-03T11:30:24+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:30:24+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:30:27+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:30:30+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 20,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:30:33+08:00 ] 127.0.0.1 /index.php/user/user_edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:30:41+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:30:44+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:30:48+08:00 ] 127.0.0.1 /index.php/user/user_edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:31:12+08:00 ] 127.0.0.1 /index.php/user/upload_pic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\www\nanny\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-02-03T11:31:14+08:00 ] 127.0.0.1 /index.php/user/user_edit_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: UPDATE `crm_client` SET `pic`='5893f9801fc83.jpg',`name`='刁顺芳',`jobnumber`='15639',`city`='河南省',`age`='45',`animal`='鼠',`wtype`='育儿嫂',`edu`='初中',`room`='不住家',`birth`='1972-01-06',`worktime`='5年以上',`certification`='待证',`shome`='3',`language`='普通话',`taste`='上海菜，外地菜·',`workspace`='不限',`workstate`='待业',`phone`='13671831910',`workhistory`='2009年-2011年，在凌宜路上海家庭四口之家，主要烧饭保洁，附带1岁宝宝；
+2011年-2014年，在世纪公园江苏家庭五口之家，主要烧饭保洁，附带八个月宝宝；
+2015年-2016年，在花木浙江家庭三口之家，主要烧饭保洁，附带六个月宝宝；',`workability`='上海菜/煲汤/面食/对烧饭/烫衣服/有信心；',`evaluation`='阿姨责任心强，有耐心，信心，得到客户的好评',`updatetime`='2017-02-03 11:31:14' WHERE `id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-02-03T11:31:14+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:31:14+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:31:18+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:31:31+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:37:21+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.029002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:37:21+08:00 ] 127.0.0.1 /index.php/login/enter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:37:26+08:00 ] 127.0.0.1 /index.php/login/submit_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_user` WHERE `name` = 'yz' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-03T11:37:26+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:37:27+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:37:30+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:37:46+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:38:37+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-03T11:38:54+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:40:52+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:41:34+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:42:01+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:54:52+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T11:54:52+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T11:54:56+08:00 ] 127.0.0.1 /index.php/user/user_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT MAX(`jobnumber`) as jobnumber FROM `crm_client` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wtype E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: room E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 57 行.
+NOTIC: [8] Undefined index: certification E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 58 行.
+NOTIC: [8] Undefined index: language E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 59 行.
+NOTIC: [8] Undefined index: taste E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 60 行.
+NOTIC: [8] Undefined index: workspace E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 61 行.
+NOTIC: [8] Undefined index: workstate E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 62 行.
+NOTIC: [8] Undefined index: workability E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 63 行.
+NOTIC: [8] Undefined index: evaluation E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 64 行.
+NOTIC: [8] Undefined index: edu E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 66 行.
+NOTIC: [8] Undefined index: animal E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 67 行.
+NOTIC: [8] Undefined index: worktime E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 70 行.
+NOTIC: [8] Undefined index: shome E:\www\nanny\App_WX\Aunt\Controller\UserController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pic E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Undefined index: pic E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Undefined index: pic E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 44 行.
+NOTIC: [8] Undefined index: id E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 45 行.
+NOTIC: [8] Undefined index: name E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 52 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+NOTIC: [8] Undefined index: city E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+NOTIC: [8] Undefined index: age E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 99 行.
+NOTIC: [8] Undefined index: birth E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 132 行.
+NOTIC: [8] Undefined index: phone E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 181 行.
+NOTIC: [8] Undefined index: createtime E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 184 行.
+NOTIC: [8] Undefined index: workhistory E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T12:11:18+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:04:31+08:00 ] 127.0.0.1 /index.php/user/aunt_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:04:34+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T14:04:43+08:00 ] 127.0.0.1 /index.php/user/user_edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 42 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 61 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 62 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 63 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 64 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 65 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 66 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 67 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 68 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 69 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 70 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 71 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 72 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 73 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 74 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 76 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 77 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 78 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 79 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 80 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 81 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 82 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 83 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 84 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 85 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 87 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 88 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 89 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 90 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 91 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 92 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 93 行.
+NOTIC: [8] Use of undefined constant city - assumed 'city' E:\www\nanny\App_WX\Runtime\Cache\Aunt\072852c31f3ff3a22e220cffaab99bf4.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T14:05:44+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 10,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:05:47+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 20,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:05:55+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T14:06:04+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T14:06:07+08:00 ] 127.0.0.1 /index.php/user/chk_user/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:19:34+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:19:37+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 20,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T14:19:39+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T14:19:46+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 10,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T14:19:50+08:00 ] 127.0.0.1 /index.php/User/aunt_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `crm_client` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `crm_client` WHERE `status` = 1 ORDER BY createtime desc LIMIT 20,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `crm_client` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

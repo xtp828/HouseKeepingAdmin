@@ -1,0 +1,10 @@
+[ 2017-01-24T16:08:41+08:00 ] ::1 /nanny/index.php/wap/
+ERR: >>>>> 错误信息：无法加载模块:Wap
+[ 2017-01-24T16:08:41+08:00 ] ::1 /nanny/index.php/wap/
+ERR: >>>>> 错误位置：E:\www\nanny\ThinkPHP\Library\Think\Dispatcher.class.php 行：178
+[ 2017-01-24T16:08:41+08:00 ] ::1 /nanny/index.php/wap/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wap
+
